@@ -10,6 +10,8 @@ namespace Web.ViewModels
     {
         public Owner Owner { get; set; }
         public List<PortfolioItem> PortfolioItems { get; set; }
+
+        public Contact contact { get; set; }
     }
 
 }
